@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.result {
+    height: 100px;
+    background-color: black;
+    font-size: 30px;
+    color:  white;
+}
+
+.calculator > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: solid 1px black;
+    font-size: 30px;
+}
+
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 600px;
+    background-color: green;
+}
+
+.four-column-width {
+    width: 400px;
+}
+
+.three-column-width {
+    width: 300px;
+}
+
+.two-column-width {
+    width: 200px;
+}
+
+.one-column-width {
+    width: 100px;
+}
+
+.number, .clear, .back {
+    background-color: grey;
+}
+
+div.number:hover, div.clear:hover, div.back:hover {
+    background-color: lightgray;
+}
+
+.divide, .multiply, .subtract, .add, .equals {
+    background-color: orange;
+}
+
+div.divide:hover, div.multiply:hover, div.subtract:hover, div.add:hover, div.equals:hover {
+    background-color: yellow;
+}
